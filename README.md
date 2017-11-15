@@ -23,7 +23,7 @@ This seems a good source of info: https://github.com/git-lfs/git-lfs/wiki/Tutori
 
 If you (accidentally!) transfer a file to the lfs server you can recover it  
 by:  
-`$ git lfs {pull,checkout,fetch -- {filename}}`
+`$ git lfs {pull,checkout,fetch -- {filename}}` especially: `git lfs pull` (generates an error message!?!?)
 
 _On GitLab (at Daresbury)_
 
