@@ -1,0 +1,5 @@
+#!/bin/csh -f
+find . -print | xargs grep git|grep --invert-match "Is a directory"
+find . -print | xargs grep -I -l git  | sed s/*Is a directory/ /
+find . -print | xargs grep -I -l git  | sed s/*Is//
+
