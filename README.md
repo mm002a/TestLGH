@@ -18,7 +18,8 @@ Use:
 to change the history 
 to big files or on the server, small files are in the repo.
 
-`$ git lfs {track,ls-files,env}` are useful info commands.
+`$ git lfs {track,ls-files,env}` are useful info commands.  
+This seems a good source of info: https://github.com/git-lfs/git-lfs/wiki/Tutorial  
 
 If you (accidentally!) transfer a file to the lfs server you can recover it  
 by:  
