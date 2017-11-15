@@ -7,8 +7,10 @@ Sorted gpg signing ;-)
 
 Some progress this works on GitHub! Now For GitLab!!  
 OK So this is how it works:  
+'git lfs install'  
 Choose the (potentially) big files (or file types) and 
 add them to the .gitattributes file.  
+`git lfs track "*.deb"`  
 Add `.gitattribites` to your repo!  
 Use:
 `$ git lfs migrate info --above=<size>` to find big files.  
